@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>This is forms tut</h1>
+    <form action="backend.php">
+        <label for="name">Name</label><!--the name given in for should be same as id-->
+        <div><input type="Name" name="Myname" id="name"></div><br>
+        <div>Employee ID: <input type="EMPID" name="id"></form></div><br>
+        <div>Date: <input type="date" name="mydate"></div><br>
+        <div>Are u eligible? <input type="checkbox" name="eligibility" checked></div><br> <!--using checked at last automatically checks the box-->
+        <div>Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Others <input type="radio" name="mygender"></div><br>
+        <div>Age: <input type="number" name="myage"></div><br>
+        <div>Write About Yourself:<br><textarea name="mytext" cols="30" rows="10"></textarea></div><br>
+        <div>
+        Car: <select>
+            <option>Indica</option>
+            <option>Bolero</option>
+        </select></div><br>
+        <div><input type="submit" value="Submit Now"></div><br>
+        <div><input type="reset" value="Reset Now"></div>
+    </form>
+</body>
+</html>
